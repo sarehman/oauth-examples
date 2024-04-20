@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/sales
+    username: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+    defaultSchema:
+    maxPoolSize: 20
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 1058258687814-6461eo1ktdjdgquap5eu68eommnu81hk.apps.googleusercontent.com
+            clientSecret: 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
+            scope:
+              - email
+              - profile
