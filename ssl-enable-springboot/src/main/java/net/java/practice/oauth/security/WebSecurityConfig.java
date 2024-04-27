@@ -1,5 +1,8 @@
-package net.java.practice.oauth;
+package net.java.practice.oauth.security;
 
+import net.java.practice.oauth.security.oauth.CustomOAuth2User;
+import net.java.practice.oauth.security.oauth.CustomOAuth2UserService;
+import net.java.practice.oauth.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

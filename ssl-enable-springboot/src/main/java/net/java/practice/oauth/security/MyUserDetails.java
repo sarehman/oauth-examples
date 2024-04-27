@@ -1,5 +1,7 @@
-package net.java.practice.oauth;
+package net.java.practice.oauth.security;
 
+import net.java.practice.oauth.role.Role;
+import net.java.practice.oauth.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
-@Service
+
 public class MyUserDetails implements UserDetails {
 
     private User user;

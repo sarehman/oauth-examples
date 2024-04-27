@@ -1,6 +1,7 @@
-package net.java.practice.oauth;
+package net.java.practice.oauth.user;
 
 import lombok.Data;
+import net.java.practice.oauth.role.Role;
 
 import javax.persistence.*;
 import java.util.HashSet;

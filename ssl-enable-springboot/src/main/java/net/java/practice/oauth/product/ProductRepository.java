@@ -1,2 +1,8 @@
-package net.java.practice.oauth.product;public class ProductRepository {
+package net.java.practice.oauth.product;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }

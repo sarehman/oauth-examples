@@ -1,7 +1,8 @@
-package net.java.practice.oauth.user;
+package net.java.practice.oauth.security;
 
-import net.java.practice.oauth.UserRepository;
 import net.java.practice.oauth.security.MyUserDetails;
+import net.java.practice.oauth.user.User;
+import net.java.practice.oauth.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,2 +1,12 @@
-package net.java.practice.oauth;public class ProductManagerApplication {
+package net.java.practice.oauth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProductManagerApplication {
+
+    public static void main(String[] args){
+        SpringApplication.run(ProductManagerApplication.class, args);
+    }
 }
