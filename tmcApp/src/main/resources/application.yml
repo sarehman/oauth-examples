@@ -45,9 +45,6 @@ datasource:
       format_sql: true
       dialect: org.hibernate.dialect.MySQL55Dialect
 
-###
-###644914616874-hitpumeiohbsn1er3c1eq39lpn76b1mh.apps.googleusercontent.com
-   #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
 
 ---
 spring:
