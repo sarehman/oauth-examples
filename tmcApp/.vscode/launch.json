@@ -1,0 +1,19 @@
+{
+    "configurations": [
+
+
+
+
+    
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringBootCRUDApp",
+            "request": "launch",
+            "mainClass": "com.tmcmum.SpringBootCRUDApp",
+            "projectName": "tmcApp",
+            "vmArgs":"-Dspring.profiles.active=dev",
+            "env": {"spring.security.oauth2.client.registration.google.client-secret":"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"}
+            
+        }
+    ]
+}
